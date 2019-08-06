@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main {
+	display: grid;
+	grid-template-columns: 30% 40% 30%;
+}
+
+.central {
+	dislpay: grid;
+	grid-template-columns: 100%;
+	border: 3px solid black;
+}
+
+.central > div {
+	padding: 1em;
+	background-color: #B5B5B5;
+}
+
+.heading_lk {
+	text-align: center;
+}
+
+.info {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+}
+
+.info > div {
+	padding: 1em;
+}
+
+
+.edit_buttons {
+	text-align: right;
+	height: 30px;
+}
+
+.block_name {
+	text-align: right;
+}
+
+#profile_pic {
+	text-align: center;
+	height: 170px;
+}
+
+#field2 {
+	display: none;
+}
+
+#field3 {
+	display: none;
+}
+
+#field4 {
+	display: none;
+}
+
+#field5 {
+	display: none;
+}
+
+

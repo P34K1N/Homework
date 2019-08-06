@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="pa_styles.css" />
+	<script type="text/javascript" src="jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="pa_scripts.js"></script>
+	<title>Личный кабинет активиста</title>
+</head>
+
+<body>
+	<div class="main">
+		<div></div>
+		<div class="central">
+			<div class="heading_lk"><h1>Личный кабинет активиста</h1></div>
+			<div class="info">
+				<div></div>
+				<div id="profile_pic"><img src="profile_pic.jpg" width="150" alt="" id="the_picture"></div>
+				<div class="edit_buttons"><input type="button" id="edit1" value="Править" onclick="hide_except('profile_pic')"/></div>
+				<div class="block_name"><div id="names_heading">ФИО:</div></div>
+				<div><div class="information"><div id="names_data">Павел Никитович Бочкарев</div><input type="text" id="field2" name="ФИО" value="Павел Никитович Бочкарев"/></div></div>
+				<div class="edit_buttons"><input type="button" id="edit2" value="Править" onclick="hide_except('names')"/></div>
+				<div class="block_name"><div id="date_heading">Дата рождения:</div></div>
+				<div class="information"><div id="date_data">10.01.1942</div><input type="text" id="field3" name="Дата рождения" value="10.01.1942"/></div>
+				<div class="edit_buttons"><input type="button" id="edit3" value="Править" onclick="hide_except('date')"/></div>
+				<div class="block_name"><div id="status_heading">Статус:</div></div>
+				<div class="information"><div id="status_data">Незачет сука!</div><input type="text" id="field4" name="Статус" value="Незачет сука!"/></div>
+				<div class="edit_buttons"><input type="button" id="edit4" value="Править" onclick="hide_except('status')"/></div>
+				<div class="block_name"><div id="about_heading">О себе:</div></div>
+				<div class="information"><div id="about_data">Преподаю БЖД и искусство щитпостинга.</div><input type="text" id="field5" name="О себе" value="Преподаю БЖД и искусство щитпостинга."/></div>
+				<div class="edit_buttons"><input type="button" id="edit5" value="Править" onclick="hide_except('about')"/></div>
+			</div>
+		</div>
+		<div></div>
+	</div>
+</body>
+</html>
