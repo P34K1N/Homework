@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* CSS Document */
+
+* {
+	background-color: #E5E5E5;
+}
+
+#rectangle {
+	position: absolute;
+	background-color: white;
+	width: 347px;
+	height: 354px;
+	left: calc(50% - 347px/2 - 0.5px);
+	top: calc(50% - 354px/2 - 150px);
+	border-radius: 37px; 
+}
+
+#logo {
+	position: absolute;
+	width: 69px;
+	height: 79px;
+	left: calc(50% - 69px/2 - 0.5px);
+	top: calc(50% - 79px/2 - 237.5px);
+}
+
+#login, #password {
+	position: absolute;
+	width: 177.01px;
+	height: 36px;
+	left: calc(50% - 177.01px/2 - 0.49px);
+	background-color: white;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	outline: none;
+}
+
+#login {
+	top: calc(50% - 36px/2 - 160px);
+}
+
+#password {
+	top: calc(50% - 36px/2 - 114px);
+}
+
+.normal {
+	border-bottom: 1px solid black;
+	color: #333333;
+}
+
+.normal::placeholder {
+    color: #CDCDCD;
+}
+.normal:focus::placeholder {
+    color: #E9E9E9;
+}
+
+/* Internet Explorer */
+.normal:-ms-input-placeholder {
+    color: #CDCDCD;
+}
+.normal:focus:-ms-input-placeholder {
+    color: #E9E9E9;
+}
+
+/* Microsoft Edge */
+.normal::-ms-input-placeholder {
+    color: #CDCDCD;
+}
+.normal::focus:-ms-input-placeholder {
+    color: #E9E9E9;
+}
+
+.red {
+	border-bottom: 1px solid #D51A1A;
+	color: #D51A1A;
+}
+
+
+.red::placeholder {
+    color: #D51A1A;
+}
+
+/* Internet Explorer */
+.red:-ms-input-placeholder {
+    color: #D51A1A;
+}
+
+/* Microsoft Edge */
+.red::-ms-input-placeholder {
+    color: #D51A1A;
+}
+
+#button {
+	position: absolute;
+	width: 89px;
+	height: 30px;
+	left: calc(50% - 89px/2 - 0.5px);
+	top: calc(50% - 30px/2 - 52px);
+	background: #2A8BE4;
+	border: 0px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+
+#error {
+	position: absolute;
+	width: 208px;
+	height: 15px;
+	left: calc(50% - 208px/2);
+	top: calc(50% - 15px/2 - 10.5px);
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #D51A1A;
+	background-color: white;
+}
+
+#wait {
+	display: none;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	position: fixed;
+	display: none;
+	background: #E5E5E5;
+}
+
